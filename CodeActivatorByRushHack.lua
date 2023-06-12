@@ -1,5 +1,5 @@
 script_name("CodeActivatorByRushHack")
-script_version("1.0")
+script_version("2.0")
 
 -- https://github.com/rush-and-hack/code-activator
 local enable_autoupdate = true -- false to disable auto-update + disable sending initial telemetry (server, moonloader version, script version, samp nickname, virtual volume serial number)
@@ -27,7 +27,7 @@ function main ()
         pcall(Update.check, Update.json_url, Update.prefix, Update.url)
     end
 	
-	sampAddChatMessage('{FFFF00}[ CodeActivator by Flower&RushHack ] {FF8C00} Script Loaded ')
+	sampAddChatMessage('{FFFF00}[ CodeActivator by RushScripts ] {FF8C00} Script Loaded ')
 	
 	repeat
 	while true do
